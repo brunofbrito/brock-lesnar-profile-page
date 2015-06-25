@@ -1,0 +1,130 @@
+body {
+	max-width: 100%;
+	margin: 0 auto;
+	font-family: 'Playfair Display', serif;
+  animation: fadein 2s;
+}
+
+h1, h2, h3 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.header {
+	min-width:100%;
+	text-align: right;
+}
+
+.heading {
+	background-image:url("img/brock-lesnar-bground.jpg");
+	min-height: 400px;
+}
+
+.heading h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight:700;
+	color: white;
+	background-color:rgba(0,0,0,.3);
+	text-align: center;
+	font-size:3em;
+	line-height:2em;
+	text-transform: uppercase;
+	margin-bottom:300px;
+}
+
+.heading h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	color:white;
+	font-weight:700;
+	background-color:rgba(0,0,0,.3);
+	text-align: center;
+	font-size: 1.5em;
+	line-height: 2em;
+}
+
+.heading h3:before {
+	font-family: FontAwesome;
+	content: "\f0a4" " ";
+}
+
+.heading h3:after {
+	font-family: FontAwesome;
+	content: " ""\f0a5";
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+  opacity:0.4;
+	font-weight:500;
+  transition: ease-in .4s;
+}
+
+.menu a:hover {
+  opacity:1;
+}
+
+.menu {
+	display:inline;
+	padding: 10px 25px;
+}
+
+.menu:hover {
+	transition: border-bottom .4s;
+  border-bottom: 5px solid black;
+}
+
+.active {
+	color:black;
+	font-weight: 700;
+	padding: 10px 15px;
+	border-bottom: 5px solid black;
+}
+
+.active:hover {
+	border-bottom: 5px solid black;
+}
+
+.content {
+	padding: 0 40px;
+}
+
+.profilepic {
+	max-height: 150px;
+	max-width: 150px;
+	border-radius:50%;
+	padding:2px;
+	box-shadow: 3px 3px 3px #111; 
+	margin-right: 50px;
+	vertical-align: middle;
+}
+
+.content q {
+	font-size:1.4em;
+}
+
+.description {
+	padding: 10px 0;
+}
+
+ol li {
+  list-style-type: none;
+}
+
+ol li:before {
+  content: "\f073" " ";
+  font-family: FontAwesome;
+  font-weight: 700;
+  color:darkorange;
+}
+
+.year {
+  color:orange;
+  font-weight: 700;
+}
+
+.footer {
+  background: linear-gradient(#444847, black);
+	color:white;
+	text-align: center;
+	padding: 2px 0;
+}
