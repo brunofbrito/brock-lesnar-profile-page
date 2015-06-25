@@ -1,8 +1,14 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
 	max-width: 100%;
 	margin: 0 auto;
 	font-family: 'Playfair Display', serif;
-  animation: fadein 2s;
 }
 
 h1, h2, h3 {
@@ -14,9 +20,27 @@ h1, h2, h3 {
 	text-align: right;
 }
 
+.flexbox {
+	display:flex;
+}
+
+.fleximage {
+	display:flex;
+	flex-grow: 1;
+}
+
+.flexquote {
+	display:flex;
+	flex-grow: 20;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
 .heading {
 	background-image:url("img/brock-lesnar-bground.jpg");
 	min-height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .heading h1 {
