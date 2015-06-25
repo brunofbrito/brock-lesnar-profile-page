@@ -59,18 +59,19 @@ h1, h2, h3 {
   transition: ease-in .4s;
 }
 
-.menu a:hover {
+.menu:hover a {
   opacity:1;
 }
 
 .menu {
 	display:inline;
 	padding: 10px 25px;
+	transition: border-bottom .4s;
+  border-bottom: 5px solid white;
 }
 
 .menu:hover {
-	transition: border-bottom .4s;
-  border-bottom: 5px solid black;
+  border-color: black;
 }
 
 .active {
